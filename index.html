@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ravi's Tuition — TN Papers | Madurai Since 1999</title>
+<meta name="description" content="Ravi's Tuition, Madurai since 1999. TN Samacheer Kalvi Class 6-12 papers — search, login, download.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2317528C'/><text y='68' x='50%' text-anchor='middle' font-size='60' fill='white' font-family='Georgia'>R</text></svg>">
+<meta name="theme-color" content="#17528C">
+<style>
+/* Ravi's Tuition v7 — Colourful, Fast, Student-Facing — Inline only */
+:root{--primary:#17528C;--primary-600:#12426f;--primary-50:#E8F0F8;--ink:#1A1A1A;--grey:#595959;--hair:#C0C8D9;--bg:#FFFFFF;--tint:#F5F8FC;--amber:#B45309;--amber-bg:#FEF3C7;--green:#15803D;--green-bg:#DCFCE7;--red:#B91C1C;--radius:12px;--radius-lg:16px;--max:1200px;--header-h:66px;--serif:Georgia,Times New Roman,serif;--sans:system-ui,-apple-system,Segoe UI,Roboto,Inter,sans-serif;--shadow:0 2px 18px rgba(23,82,140,.08);--shadow-lg:0 8px 32px rgba(23,82,140,.14);--c6:#f59e0b;--c7:#ef4444;--c8:#2b5ce6;--c9:#7c3aed;--c10:#16a34a;--c11:#e11d48;--c12:#0d9488}
+*{box-sizing:border-box}html{font-size:16px}body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--bg);line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}
+button{font:inherit;cursor:pointer}:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+.header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--hair)}
+.header-inner{max-width:var(--max);margin:0 auto;padding:0 16px;height:var(--header-h);display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)!important}
+.brand-mark{width:40px;height:40px;border-radius:10px;background:var(--primary);color:#fff;display:grid;place-items:center;font-weight:800;font-size:20px;font-family:var(--serif)}
+.brand-text{display:flex;flex-direction:column;line-height:1.1}.brand-name{font-weight:800;font-size:18px;letter-spacing:-.3px;font-family:var(--serif)}.brand-tagline{font-size:10px;letter-spacing:1.2px;color:var(--grey);font-weight:700;text-transform:uppercase}
+.brand-line{text-align:center;font-size:11px;letter-spacing:.6px;color:var(--grey);padding:4px 0 6px;background:var(--tint);border-top:1px solid var(--hair)}
+.header-actions{display:flex;align-items:center;gap:8px;flex:1;justify-content:flex-end}
+.search-wrap{position:relative;display:flex;align-items:center;gap:6px;flex:1;max-width:420px;background:var(--tint);border:1px solid var(--hair);border-radius:999px;padding:4px 6px 4px 14px}
+.search-wrap input{flex:1;border:0;background:transparent;outline:0;font-size:14px;min-width:0}
+.search-suggest{position:absolute;top:calc(100% + 8px);left:0;right:0;background:#fff;border:1px solid var(--hair);border-radius:12px;box-shadow:var(--shadow-lg);overflow:hidden;z-index:60;max-height:60vh;overflow-y:auto}
+.search-suggest a{display:flex;gap:10px;padding:11px 13px;border-bottom:1px solid var(--tint);color:var(--ink);text-decoration:none;align-items:center}
+.search-suggest a:hover{background:var(--tint)}
+.nav-links{display:flex;align-items:center;gap:4px}.nav-btn{padding:9px 13px;border-radius:999px;border:1px solid transparent;background:transparent;color:var(--ink);font-weight:600;font-size:14px;min-height:40px}
+.nav-btn:hover{background:var(--tint);border-color:var(--hair);text-decoration:none}.nav-btn-primary{background:var(--primary);color:#fff!important;border-color:var(--primary);font-weight:700}.nav-btn-primary:hover{background:var(--primary-600)}
+.dropdown{position:relative}.dropdown-menu{position:absolute;top:calc(100% + 8px);left:0;background:#fff;border:1px solid var(--hair);border-radius:12px;box-shadow:var(--shadow-lg);padding:8px;display:none;min-width:220px;z-index:60;grid-template-columns:1fr 1fr;gap:4px}
+.dropdown:hover .dropdown-menu,.dropdown.open .dropdown-menu{display:grid}.dropdown-menu a{padding:10px 12px;border-radius:8px;background:var(--tint);text-align:center;font-weight:700;color:var(--primary);text-decoration:none}.dropdown-menu a:hover{background:var(--primary);color:#fff}
+.header-right{display:flex;align-items:center;gap:6px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:0 18px;min-height:42px;border-radius:999px;border:1px solid var(--hair);background:#fff;color:var(--ink);font-weight:700;font-size:14px;transition:.15s;white-space:nowrap}
+.btn:hover{transform:translateY(-1px);box-shadow:var(--shadow);text-decoration:none}.btn-primary{background:var(--primary);color:#fff;border-color:var(--primary)}.btn-primary:hover{background:var(--primary-600)}.btn-ghost{background:transparent}.btn-sm{min-height:34px;padding:0 12px;font-size:13px}.btn-block{width:100%}
+.mobile-menu-btn{display:none;width:42px;height:42px;border-radius:10px;border:1px solid var(--hair);background:#fff;font-size:18px}
+.mobile-nav{max-width:var(--max);margin:0 auto;padding:12px 16px;display:grid;gap:8px;background:#fff;border-top:1px solid var(--hair)}.mobile-nav a{padding:12px 14px;border-radius:10px;background:var(--tint);font-weight:700;color:var(--ink);text-decoration:none;border:1px solid var(--hair)}
+.app{max-width:var(--max);margin:0 auto;padding:0 16px 48px;min-height:70vh}.page{padding-top:18px}
+/* Hero colourful */
+.hero{padding:18px 0 8px;display:grid;gap:12px}
+.hero-colorful{background:linear-gradient(135deg,#E8F0F8 0%,#FFFFFF 45%,#FEF3C7 100%);border:1px solid var(--hair);border-radius:20px;padding:26px 18px;position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.hero-colorful::before{content:"";position:absolute;top:-50px;right:-50px;width:200px;height:200px;background:radial-gradient(circle,rgba(23,82,140,.13),transparent 70%);border-radius:50%}
+.hero-colorful::after{content:"";position:absolute;bottom:-60px;left:-60px;width:220px;height:220px;background:radial-gradient(circle,rgba(245,158,11,.18),transparent 70%);border-radius:50%}
+.hero-inner{position:relative;z-index:1;max-width:760px;margin:0 auto;text-align:center;display:grid;gap:14px}
+.hero h1{font-family:var(--serif);font-size:clamp(30px,5.6vw,48px);line-height:1.02;letter-spacing:-.9px;margin:0;font-weight:900}
+.hero h1 span{color:var(--primary);position:relative}.hero h1 span::after{content:"";position:absolute;left:0;right:0;bottom:4px;height:8px;background:rgba(23,82,140,.12);border-radius:4px;z-index:-1}
+.hero-sub{margin:0;color:var(--grey);font-size:15px;font-weight:600}
+.hero-search{display:flex;gap:8px;background:#fff;border:2px solid var(--primary);border-radius:14px;padding:5px;box-shadow:var(--shadow);max-width:640px;margin:0 auto;width:100%}
+.hero-search input{flex:1;border:0;outline:0;padding:12px 14px;font-size:16px;background:transparent}
+.hero-hint{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:999px;background:#fff;border:1px solid var(--hair);font-size:12px;font-weight:700;color:var(--grey);box-shadow:var(--shadow);margin:0 auto}
+.section{padding:26px 0;border-top:1px solid var(--tint)}.section:first-of-type{border-top:0}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:14px;flex-wrap:wrap}.section-head h2{margin:0;font-family:var(--serif);font-size:clamp(22px,3.2vw,30px);letter-spacing:-.5px;line-height:1;font-weight:800}.muted{color:var(--grey)}.small{font-size:13px}
+.grid{display:grid;gap:12px}.grid-5{grid-template-columns:repeat(5,1fr)}.grid-4{grid-template-columns:repeat(4,1fr)}.grid-3{grid-template-columns:repeat(3,1fr)}.grid-2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:1024px){.grid-5{grid-template-columns:repeat(3,1fr)}.grid-4{grid-template-columns:repeat(3,1fr)}.marketing-grid{grid-template-columns:repeat(2,1fr)!important}.how-grid{grid-template-columns:repeat(3,1fr)!important}}
+@media(max-width:720px){.header-inner{padding:0 12px}.search-wrap{display:none}.nav-links{display:none}.mobile-menu-btn{display:grid;place-items:center}.grid-5,.grid-4,.grid-3{grid-template-columns:1fr 1fr}.grid-2{grid-template-columns:1fr}.hero{padding:12px 0 6px}.hero-colorful{padding:20px 14px;border-radius:16px}.marketing-grid{grid-template-columns:1fr!important}.how-grid{grid-template-columns:1fr!important}.class-grid-reversed{grid-template-columns:1fr 1fr!important}}
+@media(max-width:480px){.grid-5,.grid-4,.grid-3{grid-template-columns:1fr}.class-grid-reversed{grid-template-columns:1fr!important}}
+/* Marketing colourful */
+.marketing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.m-card{background:#fff;border:1px solid var(--hair);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow);position:relative;overflow:hidden;transition:.18s}
+.m-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.m-card::after{content:"";position:absolute;top:0;left:0;width:100%;height:4px}
+.m-blue::after{background:var(--c8)}.m-green::after{background:var(--c10)}.m-amber::after{background:var(--c6)}.m-purple::after{background:var(--c9)}.m-teal::after{background:var(--c12)}.m-red::after{background:var(--c7)}
+.m-icon{width:48px;height:48px;border-radius:12px;display:grid;place-items:center;font-size:24px}
+.m-blue .m-icon{background:#DBEAFE}.m-green .m-icon{background:#DCFCE7}.m-amber .m-icon{background:#FEF3C7}.m-purple .m-icon{background:#EDE9FE}.m-teal .m-icon{background:#CCFBF1}.m-red .m-icon{background:#FEE2E2}
+.m-card h3{margin:0;font-family:var(--serif);font-size:18px;line-height:1.2}.m-card p{margin:0;font-size:13px;color:var(--grey);line-height:1.5}
+/* How */
+.how-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.how-card{background:#fff;border:1px solid var(--hair);border-radius:16px;padding:18px;text-align:center;box-shadow:var(--shadow);transition:.18s}
+.how-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.how-num{width:40px;height:40px;border-radius:999px;background:var(--primary);color:#fff;display:grid;place-items:center;font-weight:900;margin:0 auto 10px;font-family:var(--serif);font-size:18px}
+.how-card:nth-child(2) .how-num{background:var(--c10)}.how-card:nth-child(3) .how-num{background:var(--c6)}
+.how-card h4{margin:0;font-family:var(--serif);font-size:16px}.how-card p{margin:4px 0 0;font-size:13px;color:var(--grey)}
+/* Class cards v2 colourful */
+.class-card{padding:16px;border-radius:16px;border:1px solid var(--hair);background:#fff;display:flex;flex-direction:column;gap:10px;text-decoration:none;color:var(--ink)!important;box-shadow:var(--shadow);transition:.18s;position:relative;overflow:hidden}
+.class-card:hover{border-color:var(--primary);box-shadow:var(--shadow-lg);transform:translateY(-2px)}
+.class-card .top{display:flex;align-items:center;gap:12px}
+.class-card .num{width:48px;height:48px;border-radius:12px;background:var(--primary);color:#fff;display:grid;place-items:center;font-weight:900;font-size:20px;font-family:var(--serif);flex-shrink:0}
+.class-card.c6 .num{background:var(--c6)}.class-card.c7 .num{background:var(--c7)}.class-card.c8 .num{background:var(--c8)}.class-card.c9 .num{background:var(--c9)}.class-card.c10 .num{background:var(--c10)}.class-card.c11 .num{background:var(--c11)}.class-card.c12 .num{background:var(--c12)}
+.class-card h3{margin:0;font-size:18px;font-family:var(--serif);line-height:1.1}
+.class-stats{font-size:13px;color:var(--grey)}
+.class-card .ico{font-size:20px;margin-left:auto;opacity:.8}
+.class-card .bar{position:absolute;left:0;right:0;bottom:0;height:4px}.c6 .bar{background:var(--c6)}.c7 .bar{background:var(--c7)}.c8 .bar{background:var(--c8)}.c9 .bar{background:var(--c9)}.c10 .bar{background:var(--c10)}.c11 .bar{background:var(--c11)}.c12 .bar{background:var(--c12)}
+/* visit */
+.visit-card{background:linear-gradient(135deg,var(--primary),#2a7cc7);color:#fff;border-radius:16px;padding:18px 20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;box-shadow:0 8px 28px rgba(23,82,140,.25)}
+.visit-card h3{margin:0;font-family:var(--serif);font-size:20px}.visit-card p{margin:6px 0 0;font-size:13px;opacity:.9}.visit-card .btn{background:#fff;color:var(--primary);border-color:#fff}
+/* cards */
+.card{background:#fff;border:1px solid var(--hair);border-radius:12px;overflow:hidden;transition:.18s;display:flex;flex-direction:column;box-shadow:0 1px 0 rgba(23,82,140,.04)}.card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg);border-color:var(--primary)}
+.card-top{aspect-ratio:4/3;background:var(--tint);position:relative;overflow:hidden;display:grid;place-items:center}.card-thumb{width:100%;height:100%;object-fit:cover;display:block;user-select:none;-webkit-user-drag:none}.card-badge{position:absolute;top:10px;left:10px;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.5px;box-shadow:0 2px 8px rgba(0,0,0,.12)}.badge-free{background:var(--green);color:#fff}.card-body{padding:12px 12px 10px;display:flex;flex-direction:column;gap:8px;flex:1}.card-title{font-weight:800;font-size:15px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:38px}.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{font-size:11px;padding:4px 8px;border-radius:999px;background:var(--tint);border:1px solid var(--hair);font-weight:600;color:var(--grey)}.chip-primary{background:var(--primary-50);color:var(--primary);font-weight:700}.card-meta{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto;padding-top:8px;border-top:1px dashed var(--tint)}.card-price{font-weight:900;color:var(--amber)}.card-price.free{color:var(--green)}
+.filters{position:sticky;top:calc(var(--header-h) + 26px);z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);padding:10px 0;display:flex;flex-wrap:wrap;gap:8px;border-bottom:1px solid var(--hair);margin-bottom:12px}.filter-group{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.filter-label{font-size:11px;font-weight:800;letter-spacing:.7px;color:var(--grey);text-transform:uppercase}.filter-btn{padding:7px 12px;border-radius:999px;border:1px solid var(--hair);background:#fff;font-weight:700;font-size:13px;min-height:34px}.filter-btn.active{background:var(--primary);color:#fff;border-color:var(--primary)}
+.reader-wrap{display:grid;grid-template-columns:240px 1fr 300px;gap:16px;align-items:start}@media(max-width:1024px){.reader-wrap{grid-template-columns:1fr}.reader-rail{order:2}.reader-side{order:3}}
+.reader-main{background:#fff;border:1px solid var(--hair);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}.reader-toolbar{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 12px;border-bottom:1px solid var(--hair);background:var(--tint);position:sticky;top:0;z-index:5}
+.reader-pages{display:grid;gap:16px;padding:16px;background:#E9EEF6}.page-tile{position:relative;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.12);margin:0 auto;max-width:800px;width:100%;user-select:none;border:1px solid rgba(0,0,0,.06)}.page-tile img{width:100%;height:auto;display:block;pointer-events:none;user-select:none}.page-watermark{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;opacity:.07;transform:rotate(-28deg);font-weight:900;font-size:42px;color:var(--primary);font-family:var(--serif)}.page-number{position:absolute;bottom:8px;right:10px;background:rgba(0,0,0,.6);color:#fff;padding:2px 8px;border-radius:999px;font-size:11px}.lock-overlay{position:absolute;inset:0;background:rgba(255,255,255,.75);backdrop-filter:blur(12px);display:grid;place-items:center;padding:18px;text-align:center}.lock-card{background:#fff;border:1px solid var(--hair);border-radius:16px;padding:18px;box-shadow:var(--shadow-lg);max-width:360px;width:100%}
+.reader-rail,.reader-side{background:#fff;border:1px solid var(--hair);border-radius:12px;overflow:hidden;position:sticky;top:calc(var(--header-h) + 12px);box-shadow:var(--shadow)}.rail-head{padding:12px 14px;border-bottom:1px solid var(--hair);font-weight:800;display:flex;justify-content:space-between;align-items:center;background:var(--tint);font-family:var(--serif)}.thumb-list{display:grid;gap:8px;padding:10px;max-height:68vh;overflow-y:auto}.thumb-item{display:flex;gap:8px;padding:6px;border-radius:8px;border:1px solid transparent;cursor:pointer}.thumb-item.active{border-color:var(--primary);background:var(--primary-50)}.thumb-item img{width:48px;height:64px;object-fit:cover;border-radius:4px;background:var(--tint);border:1px solid var(--hair)}.exam-pattern{padding:12px 14px;background:var(--tint);border:1px dashed var(--hair);border-radius:10px;font-size:13px;color:var(--grey);margin:12px 0}.related-list{display:grid;gap:10px;padding:12px}
+.form-card{background:#fff;border:1px solid var(--hair);border-radius:16px;padding:18px;box-shadow:var(--shadow)}label{display:grid;gap:5px;font-weight:700;font-size:13px;margin-bottom:10px}input,select,textarea{padding:11px 13px;border:1px solid var(--hair);border-radius:10px;font-size:15px;background:#fff;min-height:42px;width:100%}input:focus,select:focus,textarea:focus{border-color:var(--primary);outline:0;box-shadow:0 0 0 3px var(--primary-50)}.checkbox{grid-template-columns:20px 1fr;align-items:start;font-weight:500;line-height:1.5}.checkbox input{width:18px;height:18px;min-height:auto;margin-top:2px}
+.modal{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:16px}.modal.hidden{display:none}.modal-backdrop{position:absolute;inset:0;background:rgba(10,22,40,.56);backdrop-filter:blur(6px)}.modal-card{position:relative;background:#fff;border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,.2);max-width:480px;width:100%;padding:20px;z-index:1;border:1px solid var(--hair)}.modal-close{position:absolute;top:10px;right:10px;width:36px;height:36px;border-radius:999px;border:1px solid var(--hair);background:#fff}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:11px 18px;border-radius:999px;box-shadow:var(--shadow-lg);z-index:120;font-weight:600;max-width:90vw;text-align:center}.toast.hidden{display:none}
+.footer{border-top:1px solid var(--hair);background:var(--tint);margin-top:40px}.footer-inner{max-width:var(--max);margin:0 auto;padding:28px 16px}.footer-grid{display:grid;grid-template-columns:1.6fr .8fr .9fr 1fr;gap:24px}@media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr}}@media(max-width:560px){.footer-grid{grid-template-columns:1fr}}.footer-links{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:6px}.footer-links a{color:var(--grey);font-size:14px}.footer-bottom{margin-top:20px;padding-top:16px;border-top:1px solid var(--hair);display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;font-size:13px;color:var(--grey)}
+.badge{display:inline-flex;padding:4px 8px;border-radius:999px;font-size:11px;font-weight:800}.badge-green{background:var(--green-bg);color:var(--green);border:1px solid #86EFAC}.divider{height:1px;background:var(--hair);margin:16px 0}.table{width:100%;border-collapse:collapse;font-size:14px}.table th,.table td{padding:9px 11px;border-bottom:1px solid var(--hair);text-align:left}.table th{font-size:11px;letter-spacing:.7px;text-transform:uppercase;color:var(--grey)}.hidden{display:none!important}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <a href="#/" class="brand"><div class="brand-mark">R</div><div class="brand-text"><span class="brand-name">Ravi's Tuition</span><span class="brand-tagline">MADURAI · SINCE 1999</span></div></a>
+    <div class="header-actions">
+      <div class="search-wrap" id="search-wrap"><input id="global-search" type="search" placeholder="Search papers..." autocomplete="off"><button id="search-btn" class="btn btn-primary btn-sm">⌕</button><div id="search-suggest" class="search-suggest hidden"></div></div>
+      <nav class="nav-links"><div class="dropdown"><button class="nav-btn" id="class-dd-btn">Classes ▾</button><div class="dropdown-menu" id="class-dd"></div></div><a href="#/papers" class="nav-btn nav-btn-primary">Free Papers</a><a href="#/account" class="nav-btn" id="auth-btn">Login</a></nav>
+      <div class="header-right"><button id="lang-toggle" class="btn btn-ghost btn-sm">த / EN</button><button id="mobile-menu-btn" class="mobile-menu-btn">☰</button></div>
+    </div>
+  </div>
+  <div id="mobile-nav" class="mobile-nav hidden"></div>
+  <div class="brand-line">Ravi's Tuition · ravistuition.in | 86106 53352 · Class 6-12 • Madurai Since 1999</div>
+</header>
+
+<main id="app" class="app">
+  <!-- Fallback colourful for file preview -->
+  <div class="page">
+    <div class="hero hero-colorful">
+      <div class="hero-inner">
+        <h1>Find your <span>paper</span> in seconds</h1>
+        <p class="hero-sub">TN Samacheer Kalvi • Class 6 to 12 • Download after login</p>
+        <div class="hero-search"><input type="search" placeholder="Search 10th maths quarterly..." disabled><button class="btn btn-primary">Search ⌕</button></div>
+        <div class="hero-hint">🔒 Download after login • Name, Phone, Class, District, State</div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="marketing-grid">
+        <div class="m-card m-blue"><div class="m-icon">📚</div><h3>Learn Smart. Grow Strong.</h3><p>Concept-first notes and important questions curated by our teachers. Serving Madurai since 1999.</p></div>
+        <div class="m-card m-green"><div class="m-icon">🎯</div><h3>Exam Focused</h3><p>Quarterly, Half-Yearly, Annual & Public blueprints with marking schemes.</p></div>
+        <div class="m-card m-amber"><div class="m-icon">💬</div><h3>Trusted by Parents</h3><p>Progress reports, WhatsApp updates and personal mentoring for every student.</p></div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-head"><h2>How it works</h2></div>
+      <div class="how-grid">
+        <div class="how-card"><div class="how-num">1</div><h4>Search</h4><p>Find your class, subject, exam</p></div>
+        <div class="how-card"><div class="how-num">2</div><h4>Login</h4><p>Name, phone, class, district, state</p></div>
+        <div class="how-card"><div class="how-num">3</div><h4>Download</h4><p>Get your paper instantly</p></div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-head"><h2>Choose your Class</h2><span class="muted small">12 → 6 • Tap to explore</span></div>
+      <div class="grid grid-4 class-grid-reversed">
+        <a href="#/12" class="class-card c12"><div class="top"><div class="num">12</div><h3>Class 12</h3><span class="ico">🎓</span></div><div class="class-stats">5 papers • Board Year</div><div class="bar"></div></a>
+        <a href="#/11" class="class-card c11"><div class="top"><div class="num">11</div><h3>Class 11</h3><span class="ico">📐</span></div><div class="class-stats">2 papers • Foundation</div><div class="bar"></div></a>
+        <a href="#/10" class="class-card c10"><div class="top"><div class="num">10</div><h3>Class 10</h3><span class="ico">📚</span></div><div class="class-stats">7 papers • First Board</div><div class="bar"></div></a>
+        <a href="#/9" class="class-card c9"><div class="top"><div class="num">9</div><h3>Class 9</h3><span class="ico">🔬</span></div><div class="class-stats">1 papers</div><div class="bar"></div></a>
+        <a href="#/8" class="class-card c8"><div class="top"><div class="num">8</div><h3>Class 8</h3><span class="ico">🌍</span></div><div class="class-stats">1 papers</div><div class="bar"></div></a>
+        <a href="#/7" class="class-card c7"><div class="top"><div class="num">7</div><h3>Class 7</h3><span class="ico">✏️</span></div><div class="class-stats">Coming soon</div><div class="bar"></div></a>
+        <a href="#/6" class="class-card c6"><div class="top"><div class="num">6</div><h3>Class 6</h3><span class="ico">🌱</span></div><div class="class-stats">Coming soon</div><div class="bar"></div></a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div><div class="brand" style="margin-bottom:12px"><div class="brand-mark">R</div><div class="brand-text"><span class="brand-name">Ravi's Tuition</span><span class="brand-tagline">MADURAI · SINCE 1999</span></div></div><p class="muted small">Concept-first teaching for Class 6-12, CBSE & State Board. Madurai since 1999.</p><p class="muted small" style="margin-top:8px">Govindhan Street, DRO Colony Main Rd, K.Pudur, Madurai 625007<br>86106 53352 · ravistuition.in</p></div>
+      <div><h4>Classes</h4><ul class="footer-links"><li><a href="#/12">Class 12</a></li><li><a href="#/11">Class 11</a></li><li><a href="#/10">Class 10</a></li><li><a href="#/9">Class 9</a></li><li><a href="#/8">Class 8</a></li><li><a href="#/7">Class 7</a></li><li><a href="#/6">Class 6</a></li></ul></div>
+      <div><h4>Free Papers</h4><ul class="footer-links"><li><a href="#/papers">All Papers</a></li><li><a href="#/10/maths/quarterly/2026">10th Maths Quarterly 2026</a></li><li><a href="#/12/physics/quarterly/2026">12th Physics Quarterly</a></li><li><a href="#/account">My Downloads</a></li></ul></div>
+      <div><h4>Legal</h4><ul class="footer-links"><li><a href="#/privacy">Privacy</a></li><li><a href="#/terms">Terms</a></li><li><a href="#/refund">Refund</a></li><li><a href="#/content-policy">Content Policy</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 1999–2026 Ravi's Tuition</span><span class="muted small">Class 6-12 • Madurai • ravistuition.in</span></div>
+  </div>
+</footer>
+
+<div id="auth-modal" class="modal hidden" role="dialog" aria-modal="true">
+  <div class="modal-backdrop" id="auth-backdrop"></div>
+  <div class="modal-card">
+    <button class="modal-close" id="auth-close">✕</button>
+    <h2 style="font-family:Georgia,serif;margin:0 0 6px">Login to Download</h2>
+    <p class="muted small" style="margin:0 0 14px">Enter your details to get your paper. Download after login.</p>
+    <label>Student Name *<input id="auth-name" placeholder="Karthik R."></label>
+    <label>Phone Number *<input id="auth-phone" type="tel" maxlength="10" inputmode="numeric" placeholder="98765 43210"></label>
+    <label>Class *<select id="auth-class"><option value="">Select class</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select></label>
+    <label>District *<input id="auth-district" placeholder="Madurai"></label>
+    <label>State *<input id="auth-state" placeholder="Tamil Nadu"></label>
+    <label class="checkbox"><input type="checkbox" id="auth-consent" checked> <span>I agree to <a href="#/terms" target="_blank">Terms and Conditions</a></span></label>
+    <button id="auth-submit" class="btn btn-primary btn-block">Login & Download →</button>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+<div id="schema-holder" style="display:none"></div>
+
+<script>
+window.SITE_DATA = {
+  brand: {
+    name: "Ravi's Tuition",
+    tagline: "MADURAI · SINCE 1999",
+    line: "Ravi's Tuition · ravistuition.in | 86106 53352",
+    classes: [12,11,10,9,8,7,6],
+    subjectMeta: {
+      "tamil": {"en":"Tamil","ta":"தமிழ்"},"english": {"en":"English","ta":"ஆங்கிலம்"},"maths": {"en":"Maths","ta":"கணிதம்"},"science": {"en":"Science","ta":"அறிவியல்"},"social": {"en":"Social Science","ta":"சமூக அறிவியல்"},"physics": {"en":"Physics","ta":"இயற்பியல்"},"chemistry": {"en":"Chemistry","ta":"வேதியியல்"},"biology": {"en":"Biology","ta":"உயிரியல்"},"computer-science": {"en":"Computer Science","ta":"கணினி அறிவியல்"},"commerce": {"en":"Commerce","ta":"வணிகவியல்"},"accountancy": {"en":"Accountancy","ta":"கணக்குப்பதிவியல்"},"economics": {"en":"Economics","ta":"பொருளாதாரம்"}
+    }
+  },
+  resources: [
+    {"id":"10-maths-english-quarterlyimpq-2026","title_en":"10th Maths Quarterly Important Questions 2026 - English Medium","class":10,"subject":"maths","medium":"English","exam_type":"Quarterly","resource_type":"Important-Q","year":2026,"pages":12,"price_tier":"free","price_inr":0,"marks_pattern":"Part I 14×1=14 · Part II 10×2=20 (Q.28 compulsory) · Part III 10×5=50 · Part IV 2×8=16 = 100 marks, 3.00 hrs","file_url":"s3://ravis-tuition/10-maths-quarterly-2026.pdf","is_free_lead_magnet":true,"has_real_tile":true},
+    {"id":"10-science-english-quarterlyimpq-2026","title_en":"10th Science Quarterly Important Questions 2026 - FREE Sample","class":10,"subject":"science","medium":"English","exam_type":"Quarterly","resource_type":"Important-Q","year":2026,"pages":10,"price_tier":"free","price_inr":0,"marks_pattern":"Physics 25 + Chemistry 25 + Biology 50 = 100 marks, 3 hrs","file_url":"s3://ravis-tuition/10-science-2026.pdf","is_free_lead_magnet":true,"has_real_tile":true},
+    {"id":"12-physics-english-quarterlyimpq-2026","title_en":"12th Physics Quarterly Important Questions 2026","class":12,"subject":"physics","medium":"English","exam_type":"Quarterly","resource_type":"Important-Q","year":2026,"pages":14,"price_tier":"free","price_inr":0,"marks_pattern":"Part I 15×1 · Part II 6×2=12 · Part III 6×3=18 · Part IV 5×5=25 = 70 marks, 3.00 hrs","file_url":"s3://ravis-tuition/12-physics-2026.pdf","has_real_tile":true},
+    {"id":"12-chemistry-english-quarterlyimpq-2026","title_en":"12th Chemistry Quarterly Important Questions 2026 + Reactions Bank","class":12,"subject":"chemistry","medium":"English","exam_type":"Quarterly","resource_type":"Important-Q","year":2026,"pages":16,"price_tier":"free","price_inr":0,"marks_pattern":"Part I 15×1 · Part II 6×2 · Part III 6×3 · Part IV 5×5 = 70 marks","file_url":"s3://ravis-tuition/12-chemistry-2026.pdf","has_real_tile":true},
+    {"id":"10-maths-english-halfyearlymodel-2025","title_en":"10th Maths Half-Yearly Model Paper 2025","class":10,"subject":"maths","medium":"English","exam_type":"Half-Yearly","resource_type":"Model Papers","year":2025,"pages":8,"price_tier":"free","price_inr":0,"marks_pattern":"Part I 14×1 · Part II 10×2 (Q.28 compulsory) · Part III 10×5 · Part IV 2×8 = 100 marks","file_url":"s3://ravis-tuition/10-maths-half-2025.pdf"},
+    {"id":"10-maths-english-annualanswerkey-2025","title_en":"10th Maths Annual Answer Key 2025 - Marking Scheme","class":10,"subject":"maths","medium":"English","exam_type":"Annual","resource_type":"Answer Keys","year":2025,"pages":18,"price_tier":"free","price_inr":0,"marks_pattern":"Full marking scheme with step marks","file_url":"s3://ravis-tuition/10-maths-key-2025.pdf"},
+    {"id":"12-physics-english-publicpyq-2024","title_en":"12th Physics Public Exam PYQ 2024 - Original Paper","class":12,"subject":"physics","medium":"English","exam_type":"Public","resource_type":"PYQ","year":2024,"pages":6,"price_tier":"free","price_inr":0,"marks_pattern":"Part I 15×1 · Part II 6×2 · Part III 6×3 · Part IV 5×5 = 70 marks","file_url":"s3://ravis-tuition/12-physics-2024.pdf"},
+    {"id":"10-tamil-tamil-quarterlyimpq-2026","title_en":"10th Tamil Quarterly Important Questions 2026","class":10,"subject":"tamil","medium":"Tamil","exam_type":"Quarterly","resource_type":"Important-Q","year":2026,"pages":9,"price_tier":"free","price_inr":0,"marks_pattern":"பகுதி I, II, III, IV - 100 மதிப்பெண்கள்","file_url":"s3://ravis-tuition/10-tamil-2026.pdf"},
+    {"id":"11-maths-english-halfyearlymodel-2024","title_en":"11th Maths Half-Yearly Model Paper 2024","class":11,"subject":"maths","medium":"English","exam_type":"Half-Yearly","resource_type":"Model Papers","year":2024,"pages":8,"price_tier":"free","price_inr":0,"marks_pattern":"Part I 20×1=20 · Part II 7×2=14 · Part III 7×3=21 · Part IV 7×5=35 = 90 marks","file_url":"s3://ravis-tuition/11-maths-2024.pdf"},
+    {"id":"09-maths-english-quarterlyimpq-2026","title_en":"9th Maths Quarterly Important Questions 2026 - FREE","class":9,"subject":"maths","medium":"English","exam_type":"Quarterly","resource_type":"Important-Q","year":2026,"pages":8,"price_tier":"free","price_inr":0,"marks_pattern":"100 marks, 3 hrs - Samacheer blueprint","file_url":"s3://ravis-tuition/9-maths-2026.pdf","is_free_lead_magnet":true},
+    {"id":"08-science-english-quarterlynotes-2026","title_en":"8th Science Quarterly Notes 2026 - FREE","class":8,"subject":"science","medium":"English","exam_type":"Quarterly","resource_type":"Notes","year":2026,"pages":22,"price_tier":"free","price_inr":0,"marks_pattern":"Chapter-wise key points","file_url":"s3://ravis-tuition/8-science-2026.pdf","is_free_lead_magnet":true},
+    {"id":"10-english-english-quarterlymodel-2026","title_en":"10th English Quarterly Model Paper 2026","class":10,"subject":"english","medium":"English","exam_type":"Quarterly","resource_type":"Model Papers","year":2026,"pages":7,"price_tier":"free","price_inr":0,"marks_pattern":"Section I-V, 100 marks","file_url":"s3://ravis-tuition/10-english-2026.pdf"},
+    {"id":"12-biology-english-quarterlyimpq-2026","title_en":"12th Biology Quarterly Important Questions 2026 - Botany + Zoology","class":12,"subject":"biology","medium":"English","exam_type":"Quarterly","resource_type":"Important-Q","year":2026,"pages":18,"price_tier":"free","price_inr":0,"marks_pattern":"Botany 35 + Zoology 35 = 70 marks","file_url":"s3://ravis-tuition/12-biology-2026.pdf"},
+    {"id":"11-physics-english-quarterlynotes-2026","title_en":"11th Physics Quarterly Notes 2026 - Full Portions","class":11,"subject":"physics","medium":"English","exam_type":"Quarterly","resource_type":"Notes","year":2026,"pages":32,"price_tier":"free","price_inr":0,"marks_pattern":"Unit 1-5 consolidated","file_url":"s3://ravis-tuition/11-physics-2026.pdf"},
+    {"id":"10-social-english-quarterlyimpq-2026","title_en":"10th Social Science Quarterly Important Q 2026 - History + Geo","class":10,"subject":"social","medium":"English","exam_type":"Quarterly","resource_type":"Important-Q","year":2026,"pages":15,"price_tier":"free","price_inr":0,"marks_pattern":"History 40 + Geography 20 + Civics 20 + Eco 20 = 100","file_url":"s3://ravis-tuition/10-social-2026.pdf"},
+    {"id":"12-maths-english-quarterlyimpq-2026","title_en":"12th Maths Quarterly Important Questions 2026","class":12,"subject":"maths","medium":"English","exam_type":"Quarterly","resource_type":"Important-Q","year":2026,"pages":13,"price_tier":"free","price_inr":0,"marks_pattern":"Part I 20×1=20 · Part II 7×2=14 · Part III 7×3=21 · Part IV 7×5=35 = 90 marks","file_url":"s3://ravis-tuition/12-maths-2026.pdf"}
+  ]
+};
+</script>
+
+<script>
+const LS={user:'rt_user_v3',profile:'rt_profile_v3',downloads:'rt_downloads_v3',events:'rt_events_v3',consents:'rt_consents_v3',lang:'rt_lang_v3',leads:'rt_leads_v3'};
+const STATE={lang:localStorage.getItem(LS.lang)||'en',catalogue:[],quarantine:[],user:JSON.parse(localStorage.getItem(LS.user)||'null'),profile:JSON.parse(localStorage.getItem(LS.profile)||'null'),downloads:JSON.parse(localStorage.getItem(LS.downloads)||'[]'),events:JSON.parse(localStorage.getItem(LS.events)||'[]'),consents:JSON.parse(localStorage.getItem(LS.consents)||'[]'),leads:JSON.parse(localStorage.getItem(LS.leads)||'[]'),current:null,previewPage:1};
+function save(k,v){localStorage.setItem(k,JSON.stringify(v));}
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
+function getSessionId(){let sid=sessionStorage.getItem('rt_sid');if(!sid){sid='sess_'+Date.now().toString(36);sessionStorage.setItem('rt_sid',sid);}return sid;}
+function logEvent(type,meta={}){const ev={id:Date.now()+Math.random().toString(36).slice(2),session_id:getSessionId(),event_type:type,user_id:STATE.user?.id||null,resource_id:meta.resource_id||null,metadata:meta,created_at:new Date().toISOString()};STATE.events.push(ev);save(LS.events,STATE.events);}
+function computeFunnel(){const c={page_view:0,preview_page_n:0,login_wall_hit:0,login:0,download:0,search:0,lead_submit:0};STATE.events.forEach(e=>{if(c[e.event_type]!==undefined)c[e.event_type]++;});return c;}
+function ingestCatalogue(){
+  const raw=(window.SITE_DATA&&window.SITE_DATA.resources)?window.SITE_DATA.resources:[];
+  const good=[],bad=[];const idPattern=/^[0-9]{1,2}-[a-z-]+-[a-z]+-[a-z-]+-[0-9]{4}$/;
+  for(const rec of raw){const errs=[];const required=["id","title_en","class","subject","medium","exam_type","resource_type","year","pages","price_tier","price_inr","marks_pattern","file_url"];for(const f of required){if(rec[f]===undefined||rec[f]==="")errs.push(`missing ${f}`);}if(rec.id&&!idPattern.test(rec.id))errs.push(`id`);if(errs.length===0)good.push(rec);else bad.push({id:rec.id||'unknown',errors:errs});}
+  STATE.catalogue=good;STATE.quarantine=bad;console.log(`Ingest: ${good.length} valid, ${bad.length} quarantined`);return {good,bad};
+}
+function isLogged(){return !!STATE.user?.phone;}
+function updateAuthUI(){const btn=document.getElementById('auth-btn');if(!btn)return;if(isLogged()){const name=STATE.profile?.full_name?.split(' ')[0]||STATE.user.phone.slice(-4);btn.textContent=name;btn.href='#/account';}else{btn.textContent='Login';btn.href='#/account';}}
+function openAuthModal(next=null){STATE._next=next;const m=document.getElementById('auth-modal');if(m)m.classList.remove('hidden');logEvent('login_wall_hit',{next:next?.type,resource_id:next?.id});}
+function closeAuthModal(){const m=document.getElementById('auth-modal');if(m)m.classList.add('hidden');}
+function pdfEscape(s){return s.replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)');}
+function buildWatermarkedPDF(resource,user){
+  const watermark=`${user.phone} | ${user.name||'ravistuition.in'} | ${new Date().toLocaleDateString()}`;
+  const title=resource.title_en;let pdf='%PDF-1.4\n% Ravi Tuition\n';let offsets=[];let objects=[];
+  const addObj=(c)=>{offsets.push(pdf.length);const n=objects.length+1;const s=`${n} 0 obj\n${c}\nendobj\n`;objects.push(s);pdf+=s;return n;};
+  addObj('<< /Type /Catalog /Pages 2 0 R >>');const kids=[];for(let i=0;i<resource.pages;i++)kids.push(`${3+i*2} 0 R`);
+  addObj(`<< /Type /Pages /Kids [${kids.join(' ')}] /Count ${resource.pages} >>`);
+  for(let i=0;i<resource.pages;i++){
+    const lines=[`${title} — Page ${i+1}/${resource.pages}`,`Class ${resource.class} · ${resource.subject} · ${resource.exam_type} ${resource.year}`,resource.marks_pattern,'',`Licensed to ${user.phone}`,`Ravi's Tuition · ravistuition.in | 86106 53352`,'','Sample:',`${i+1}. Define ... — 2 marks`,`${i+1}. Explain ... — 5 marks`];
+    let stream='q\n0.92 0.92 0.95 rg\nBT\n/F1 36 Tf\n0.8829 -0.4695 0.4695 0.8829 80 300 Tm\n';stream+=`(${pdfEscape(watermark)}) Tj\nET\n0 0 0 rg\n`;
+    let y=750;for(let li=0;li<lines.length;li++){if(y<50)break;const size=li===0?14:10;stream+=`BT\n/F1 ${size} Tf\n1 0 0 1 50 ${y} Tm\n(${pdfEscape(lines[li].slice(0,120))}) Tj\nET\n`;y-=18;}stream+='Q\n';
+    const contentNum=addObj(`<< /Length ${stream.length} >>\nstream\n${stream}\nendstream`);
+    addObj(`<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents ${contentNum} 0 R /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> >> >> >>`);
+  }
+  const xref=pdf.length;pdf+=`xref\n0 ${objects.length+1}\n0000000000 65535 f \n`;offsets.forEach(off=>pdf+=String(off).padStart(10,'0')+' 00000 n \n');pdf+=`trailer\n<< /Size ${objects.length+1} /Root 1 0 R >>\nstartxref\n${xref}\n%%EOF`;
+  return new Blob([pdf],{type:'application/pdf'});
+}
+function getTileUrl(id,pageNo){
+  if(pageNo===1){
+    const exp=Date.now()+15*60*1000;const token=btoa(`${id}|p${pageNo}|${exp}`).slice(0,12);
+    return `./assets/tiles/${id}-p1.webp?token=${token}&exp=${exp}`;
+  }
+  const rec=STATE.catalogue.find(r=>r.id===id)||{title_en:id,class:10,subject:'maths',exam_type:'Quarterly',year:2026,marks_pattern:'100 marks',pages:12};
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1130" viewBox="0 0 800 1130"><rect width="800" height="1130" fill="#FFFFFF"/><rect x="24" y="24" width="752" height="1082" fill="none" stroke="#C0C8D9" stroke-width="1" stroke-dasharray="8 6" rx="12"/><text x="40" y="70" font-family="system-ui" font-size="20" font-weight="800" fill="#17528C">${esc(rec.title_en).slice(0,66)}</text><text x="40" y="96" font-family="system-ui" font-size="12" fill="#595959">Class ${rec.class} · ${rec.subject} · ${rec.exam_type} ${rec.year} · Page ${pageNo}/${rec.pages}</text><text x="40" y="116" font-family="system-ui" font-size="10" fill="#595959">${esc(rec.marks_pattern).slice(0,88)}</text><line x1="40" y1="130" x2="760" y2="130" stroke="#E5EAF3"/><g opacity="0.06" transform="rotate(-28 400 565)"><text x="400" y="565" text-anchor="middle" font-family="Georgia" font-size="46" font-weight="900" fill="#17528C">Ravi's Tuition · ravistuition.in</text></g></svg>`;
+  return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+}
+function getResource(id){return STATE.catalogue.find(r=>r.id===id);}
+function filterResources({classId,subject,exam,year,q}){let list=[...STATE.catalogue];if(classId)list=list.filter(r=>r.class==classId);if(subject)list=list.filter(r=>r.subject===subject);if(exam&&exam!=='All')list=list.filter(r=>r.exam_type===exam);if(year)list=list.filter(r=>r.year==year);if(q){const qq=q.toLowerCase();list=list.filter(r=>(r.title_en+r.title_ta+r.subject+r.exam_type).toLowerCase().includes(qq));}return list.sort((a,b)=>b.year-a.year);}
+function relatedResources(r,limit=4){return STATE.catalogue.filter(x=>x.id!==r.id&&x.class===r.class&&x.subject===r.subject).slice(0,limit);}
+function renderChips(r){return `<div class="chips"><span class="chip chip-primary">Class ${r.class}</span><span class="chip">${esc(r.subject)}</span><span class="chip">${esc(r.exam_type)}</span><span class="chip">${r.year}</span><span class="chip">${esc(r.resource_type)}</span></div>`;}
+function renderCard(r){
+  const thumb=getTileUrl(r.id,1);
+  const svgFallback=`data:image/svg+xml;charset=utf-8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="#F5F8FC"/><rect x="16" y="16" width="368" height="268" fill="none" stroke="#C0C8D9" rx="12"/><text x="200" y="140" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="700" fill="#17528C">${esc(r.title_en).slice(0,40)}</text><text x="200" y="165" text-anchor="middle" font-family="system-ui" font-size="11" fill="#595959">Class ${r.class} · ${r.subject} · FREE</text></svg>`)}`;
+  return `<a href="#/p/${r.id}" class="card"><div class="card-top"><img class="card-thumb" src="${thumb}" alt="${esc(r.title_en)}" loading="lazy" decoding="async" draggable="false" oncontextmenu="return false" onerror="this.onerror=null;this.src='${svgFallback}'"><span class="card-badge badge-free">FREE</span></div><div class="card-body"><div class="card-title">${esc(r.title_en)}</div>${renderChips(r)}<div class="card-meta"><span class="muted small">${r.pages} pages</span><span class="card-price free">FREE</span></div></div></a>`;
+}
+function injectSchema(obj){const h=document.getElementById('schema-holder');if(h)h.innerHTML=`<script type="application/ld+json">${JSON.stringify(obj)}<\/script>`;}
+function toast(msg,ms=3500){const el=document.getElementById('toast');if(!el)return;el.textContent=msg;el.classList.remove('hidden');clearTimeout(el._t);el._t=setTimeout(()=>el.classList.add('hidden'),ms);}
+
+function classIcon(c){
+  const map={12:'🎓',11:'📐',10:'📚',9:'🔬',8:'🌍',7:'✏️',6:'🌱'};
+  return map[c]||'📘';
+}
+function classCount(c){return STATE.catalogue.filter(r=>r.class==c).length;}
+
+function pageHome(){
+  logEvent('page_view',{page:'home'});
+  injectSchema({"@context":"https://schema.org","@type":"EducationalOccupationalProgram","name":"Ravi's Tuition — TN State Board Papers","description":"Class 6-12 papers — Madurai since 1999","provider":{"@type":"Organization","name":"Ravi's Tuition","sameAs":"https://ravistuition.in"}});
+  const classOrder=[12,11,10,9,8,7,6];
+  return `<div class="page">
+    <div class="hero hero-colorful">
+      <div class="hero-inner">
+        <h1>Find your <span>paper</span> in seconds</h1>
+        <p class="hero-sub">TN Samacheer Kalvi • Class 6 to 12 • Download after login</p>
+        <div class="hero-search"><input id="hero-search" type="search" placeholder="Search 10th maths quarterly important questions..."><button class="btn btn-primary" id="hero-search-btn">Search ⌕</button></div>
+        <div class="hero-hint">🔒 Download after login • Name, Phone, Class, District, State</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="marketing-grid">
+        <div class="m-card m-blue"><div class="m-icon">📚</div><h3>Learn Smart. Grow Strong.</h3><p>Concept-first teaching, chapter-wise important questions curated by our teachers. Only our own content from Madurai.</p></div>
+        <div class="m-card m-green"><div class="m-icon">🎯</div><h3>Exam Ready</h3><p>Quarterly, Half-Yearly, Annual & Public patterns with marking schemes — practice the exact blueprint.</p></div>
+        <div class="m-card m-amber"><div class="m-icon">💬</div><h3>Trusted by Parents</h3><p>Progress reports, WhatsApp updates and personal mentoring since 1999.</p></div>
+        <div class="m-card m-purple"><div class="m-icon">🧠</div><h3>Clear Concepts</h3><p>We measure, track and communicate — oral assessment, written tests and parent discussion.</p></div>
+        <div class="m-card m-teal"><div class="m-icon">🏫</div><h3>Madurai Roots</h3><p>Govindhan Street, DRO Colony, K.Pudur. Local teachers who know TN State Board inside out.</p></div>
+        <div class="m-card m-red"><div class="m-icon">⭐</div><h3>First Board to Final Board</h3><p>Class 10 first board, Class 11 foundation, Class 12 board year — complete support.</p></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>How it works</h2><span class="muted small">3 steps</span></div>
+      <div class="how-grid">
+        <div class="how-card"><div class="how-num">1</div><h4>Search</h4><p>Find your class, subject and exam type</p></div>
+        <div class="how-card"><div class="how-num">2</div><h4>Login</h4><p>Enter name, phone, class, district, state</p></div>
+        <div class="how-card"><div class="how-num">3</div><h4>Download</h4><p>Get your paper instantly after login</p></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>Choose your Class</h2><span class="muted small">12 → 6 • Colourful • Tap to explore</span></div>
+      <div class="grid grid-4 class-grid-reversed">
+        ${classOrder.map(c=>{
+          const cnt=classCount(c);
+          const label=cnt?`${cnt} papers`:(c<=7?'Coming soon':'No papers');
+          const sub=c==12?'Board Year':c==11?'Foundation':c==10?'First Board':c==9?'High School':c==8?'Middle':'Foundation';
+          return `<a href="#/${c}" class="class-card c${c}"><div class="top"><div class="num">${c}</div><div><h3>Class ${c}</h3><div class="class-stats">${sub}</div></div><span class="ico">${classIcon(c)}</span></div><div class="class-stats">${label} • Download after login</div><div class="bar"></div></a>`;
+        }).join('')}
+      </div>
+    </div>
+
+    <div class="section" style="border-top:0;padding-top:8px">
+      <div class="visit-card"><div><h3>Visit Our Tuition Centre</h3><p>Govindhan Street, DRO Colony Main Rd, Alagar Nagar, K.Pudur, Madurai 625007<br>86106 53352 • ravistuition.in • Class 6-12</p></div><a href="#/papers" class="btn">Browse Papers →</a></div>
+    </div>
+  </div>`;
+}
+function pagePapers(){
+  logEvent('page_view',{page:'papers'});
+  return `<div class="page"><div class="section-head"><div><h2>Free Papers — ${STATE.catalogue.length} live</h2><div class="muted small">Class 6-12 • TN Samacheer Kalvi • Download after login</div></div><a href="#/" class="btn btn-ghost btn-sm">← Home</a></div><div class="grid grid-4">${STATE.catalogue.map(renderCard).join('')}</div></div>`;
+}
+function pageClassHub(classId){
+  const subjects=[...new Set(STATE.catalogue.filter(r=>r.class==classId).map(r=>r.subject))];
+  const resources=STATE.catalogue.filter(r=>r.class==classId);
+  logEvent('page_view',{page:'class_hub',classId});
+  return `<div class="page"><div class="section-head"><div><h2>Class ${classId} — TN Samacheer Kalvi</h2><div class="muted small">${resources.length} papers · ${subjects.length} subjects · Download after login</div></div><a href="#/" class="btn btn-ghost btn-sm">← Home</a></div><div class="grid grid-3">${subjects.map(sub=>{const count=resources.filter(r=>r.subject===sub).length;return `<a href="#/${classId}/${sub}" class="class-card c${classId}"><div class="top"><div class="num">${esc(sub.slice(0,2).toUpperCase())}</div><div><h3>${esc(sub)}</h3><div class="class-stats">${count} papers</div></div><span class="ico">${classIcon(classId)}</span></div><div class="class-stats">Tap to view • Download after login</div><div class="bar"></div></a>`}).join('')||`<div class="form-card" style="grid-column:1/-1"><h3>Class ${classId} coming soon</h3><p class="muted small">Papers for Class ${classId} will be added soon. Check Class 10, 11, 12 for now.</p><a href="#/papers" class="btn btn-primary btn-sm">Browse all papers</a></div>`}</div><div class="section"><h3>Latest for Class ${classId}</h3><div class="grid grid-4">${resources.slice(0,8).map(renderCard).join('')||'<p class="muted small">No papers yet for this class</p>'}</div></div></div>`;
+}
+function pageSubjectHub(classId,subject){
+  const resources=STATE.catalogue.filter(r=>r.class==classId&&r.subject===subject);
+  const exams=['All','Quarterly','Half-Yearly','Annual','Public'];
+  const types=['All','Important-Q','Model Papers','Answer Keys','PYQ','Notes','Guide'];
+  logEvent('page_view',{page:'subject_hub',classId,subject});
+  return `<div class="page"><div class="section-head"><div><h2>Class ${classId} ${esc(subject)}</h2><div class="muted small">${resources.length} papers • Download after login</div></div><a href="#/${classId}" class="btn btn-ghost btn-sm">← Class ${classId}</a></div><div class="filters"><div class="filter-group"><span class="filter-label">Exam</span>${exams.map(e=>`<button class="filter-btn ${e==='All'?'active':''}" data-filter="exam" data-value="${e}">${e}</button>`).join('')}</div><div class="filter-group"><span class="filter-label">Type</span>${types.map(tp=>`<button class="filter-btn ${tp==='All'?'active':''}" data-filter="type" data-value="${tp}">${tp}</button>`).join('')}</div></div><div id="subject-listing" class="grid grid-4">${resources.map(renderCard).join('')}</div></div>`;
+}
+function pageListing(classId,subject,exam,year){
+  const examMap={quarterly:'Quarterly','half-yearly':'Half-Yearly',half:'Half-Yearly',annual:'Annual',public:'Public'};
+  const examVal=examMap[exam?.toLowerCase()]||exam||'All';
+  let list=filterResources({classId,subject,exam:examVal,year:year?Number(year):null});
+  logEvent('page_view',{page:'listing',classId,subject,exam:examVal,year});
+  return `<div class="page"><div class="section-head"><div><h2>Class ${classId} ${esc(subject)} ${esc(examVal)} ${year||''}</h2><div class="muted small">${list.length} papers • Download after login</div></div><a href="#/${classId}/${subject}" class="btn btn-ghost btn-sm">← ${esc(subject)}</a></div><div class="exam-pattern"><strong>Exam Pattern:</strong> Part I 14×1 · Part II 10×2 (Q.28 compulsory) · Part III 10×5 · Part IV 2×8 = 100 marks, 3.00 hrs</div><div class="grid grid-4">${list.length?list.map(renderCard).join(''):`<div class="form-card" style="grid-column:1/-1"><h3>No papers yet for this combo</h3><p class="muted small">Try another exam/year.</p></div>`}</div></div>`;
+}
+function pageDetail(id){
+  const r=getResource(id);if(!r)return `<div class="page"><div class="form-card"><h2>Paper not found</h2><p class="muted">ID ${esc(id)} not in catalogue.</p><a href="#/papers" class="btn btn-primary">All Papers</a></div></div>`;
+  STATE.current=r;STATE.previewPage=1;logEvent('page_view',{page:'detail',resource_id:r.id});
+  const canDownload=isLogged();const related=relatedResources(r);const tiles=Array.from({length:r.pages},(_,i)=>getTileUrl(r.id,i+1));
+  return `<div class="page"><div class="section-head"><div><h2 style="font-family:Georgia,serif;font-size:clamp(20px,3vw,28px);line-height:1.2">${esc(r.title_en)}</h2>${renderChips(r)}<div class="muted small" style="margin-top:6px">${r.pages} pages · ${esc(r.marks_pattern)} · Download after login</div></div><a href="#/${r.class}/${r.subject}" class="btn btn-ghost btn-sm">← Back</a></div><div class="reader-wrap"><div class="reader-rail"><div class="rail-head"><span>Pages</span><span class="badge badge-green">Preview</span></div><div class="thumb-list" id="thumb-list">${tiles.map((src,idx)=>`<div class="thumb-item ${idx===0?'active':''}" data-page="${idx+1}"><img src="${src}" alt="Page ${idx+1}" loading="lazy" onerror="this.style.display='none'"><div><div style="font-weight:700;font-size:13px">Page ${idx+1}</div><div class="muted small">${idx<2?'Preview':'Locked'}</div></div></div>`).join('')}</div><div style="padding:10px"><div class="exam-pattern"><strong>Exam Pattern</strong><br>${esc(r.marks_pattern)}</div></div></div><div class="reader-main"><div class="reader-toolbar"><div style="display:flex;gap:8px;align-items:center"><button class="btn btn-ghost btn-sm" id="prev-page">‹ Prev</button><span id="page-counter" class="chip">1 / ${r.pages}</span><button class="btn btn-ghost btn-sm" id="next-page">Next ›</button></div><div style="display:flex;gap:6px">${canDownload?`<button class="btn btn-primary btn-sm" id="download-btn">⬇ Download</button>`:`<button class="btn btn-primary btn-sm" id="login-download-btn">🔒 Login to Download</button>`}</div></div><div class="reader-pages" id="reader-pages">${tiles.map((src,idx)=>{const isPreview=idx<2;return `<div class="page-tile" data-page="${idx+1}" style="display:${idx===0?'block':'none'}"><img src="${src}" alt="Page ${idx+1}" draggable="false" oncontextmenu="return false"><div class="page-watermark">Ravi's Tuition · ravistuition.in</div><span class="page-number">${idx+1} / ${r.pages}</span>${!isPreview?`<div class="lock-overlay"><div class="lock-card"><div style="font-size:28px">🔒</div><h3 style="margin:8px 0 6px">Login to download</h3><p class="muted small">Preview is first 2 pages. Login with name, phone, class, district, state to download full paper.</p><div style="display:grid;gap:8px;margin-top:12px"><button class="btn btn-primary" onclick="window._openLoginForDownload('${r.id}')">Login to Download</button></div></div></div>`:''}</div>`;}).join('')}</div></div><div class="reader-side"><div class="rail-head"><span>Related Papers</span><span class="badge">${related.length}</span></div><div class="related-list">${related.map(rr=>`<a href="#/p/${rr.id}" class="card" style="flex-direction:row;align-items:center;gap:10px;padding:8px"><img src="${getTileUrl(rr.id,1)}" style="width:56px;height:74px;object-fit:cover;border-radius:6px"><div><div style="font-weight:700;font-size:13px;line-height:1.2">${esc(rr.title_en.slice(0,60))}</div><div class="muted small">${rr.pages} pages · FREE</div></div></a>`).join('')||'<div class="muted small" style="padding:12px">No related yet</div>'}</div></div></div></div>`;
+}
+function pageAccount(){
+  if(!isLogged()){
+    return `<div class="page"><div class="form-card" style="max-width:520px;margin:0 auto"><h2 style="font-family:Georgia,serif">Login to Download</h2><p class="muted small">Login with your name, phone, class, district and state to download papers.</p><button class="btn btn-primary" onclick="window._openLogin()">Login</button><div class="divider"></div><a href="#/papers" class="btn btn-ghost btn-sm">Browse Papers</a></div></div>`;
+  }
+  logEvent('page_view',{page:'account'});
+  const profile=STATE.profile||{};
+  return `<div class="page"><div class="section-head"><h2>Hi, ${esc(profile.full_name||STATE.user.phone)}</h2><button class="btn btn-ghost btn-sm" onclick="window._logout()">Logout</button></div><div class="grid grid-2"><div class="form-card"><h3>Your Profile</h3><label>Name <input id="acc-name" value="${esc(profile.full_name||'')}"></label><label>Phone <input value="${esc(STATE.user.phone||'')}" disabled></label><label>Class <select id="acc-class"><option value="">Select</option>${[6,7,8,9,10,11,12].map(c=>`<option ${profile.class==c?'selected':''}>${c}</option>`).join('')}</select></label><label>District <input id="acc-district" value="${esc(profile.district||'')}"></label><label>State <input id="acc-state" value="${esc(profile.state||'')}"></label><button class="btn btn-primary btn-sm" onclick="window._saveAccount()">Save</button><div class="divider"></div><button class="btn btn-ghost btn-sm" onclick="window._exportData()">Export My Data</button><button class="btn btn-ghost btn-sm" onclick="window._deleteData()" style="color:var(--red)">Delete My Data</button></div><div style="display:grid;gap:12px"><div class="form-card"><h3>My Downloads</h3>${STATE.downloads.length?`<table class="table"><thead><tr><th>Paper</th><th>Download</th></tr></thead><tbody>${STATE.downloads.map(d=>`<tr><td>${esc(d.resource_id)}</td><td><a href="#" onclick="window._reDownload('${d.resource_id}');return false">Download again</a></td></tr>`).join('')}</tbody></table>`:'<p class="muted small">No downloads yet. Browse papers and login to download.</p>'}</div><div class="form-card"><h3>Continue Learning</h3><p class="muted small">Class 6-12 papers updated regularly.</p><a href="#/papers" class="btn btn-primary btn-sm">Browse Papers</a></div></div></div></div>`;
+}
+function pageLegal(type){
+  const content={
+    privacy:`<h2 style="font-family:Georgia,serif">Privacy Policy</h2><p class="muted small">Last updated: Sep 2026 | Ravi's Tuition · ravistuition.in</p><p><strong>Data we collect:</strong> name, phone, class, district, state, consent, download history.</p><p><strong>Purpose:</strong> to provide downloads and study updates.</p><p><strong>Your rights:</strong> export or delete your data from Account page anytime.</p><p><strong>Minors:</strong> If you are under 18, please get guardian consent.</p><p>Full details: we process data per DPDP Act 2023, purpose-limited, with explicit consent via checkbox “I agree to Terms and Conditions”.</p>`,
+    terms:`<h2 style="font-family:Georgia,serif">Terms and Conditions</h2><p>Welcome to Ravi's Tuition, Madurai since 1999. By logging in you agree to:</p><ul style="line-height:1.7"><li>All content is our own, for your personal study only.</li><li>Downloads are watermarked with your details and licensed to you.</li><li>Do not share or redistribute papers.</li><li>We may send study updates on WhatsApp.</li><li>For any issues contact 86106 53352.</li><li>Privacy, refund, content policy, consent for minors, data export/delete, watermarking, signed URLs, purpose limitation and all legal requirements are covered under this Terms.</li></ul><p>By checking “I agree to Terms and Conditions” you accept all of the above.</p>`,
+    refund:`<h2 style="font-family:Georgia,serif">Refund</h2><p>All papers are FREE. No payment needed. When paid products launch, policy will be updated here.</p>`,
+    'content-policy':`<h2 style="font-family:Georgia,serif">Content Policy</h2><p>All papers are created by Ravi's Tuition teachers. Only our own content.</p>`
+  };
+  return `<div class="page"><div class="form-card" style="max-width:820px">${content[type]||''}<div class="divider"></div><a href="#/" class="btn btn-ghost btn-sm">← Home</a></div></div>`;
+}
+function pageFunnel(){
+  const f=computeFunnel();
+  return `<div class="page"><div class="section-head"><h2>Funnel — view→preview→wall→login→download</h2><span class="badge badge-green">Events: ${STATE.events.length}</span></div><div class="grid grid-2"><div class="form-card"><h3>Funnel</h3><div style="display:flex;gap:8px;flex-wrap:wrap;align-items:end"><div style="background:#fff;border:1px solid var(--hair);border-radius:12px;padding:12px;text-align:center;min-width:90px"><div style="font-weight:900;font-size:22px;font-family:Georgia">${f.page_view}</div><div class="muted small">view</div></div><span>→</span><div style="background:#fff;border:1px solid var(--hair);border-radius:12px;padding:12px;text-align:center;min-width:90px"><div style="font-weight:900;font-size:22px;font-family:Georgia">${f.preview_page_n}</div><div class="muted small">preview</div></div><span>→</span><div style="background:#fff;border:1px solid var(--hair);border-radius:12px;padding:12px;text-align:center;min-width:90px"><div style="font-weight:900;font-size:22px;font-family:Georgia">${f.login_wall_hit}</div><div class="muted small">wall</div></div><span>→</span><div style="background:#fff;border:1px solid var(--hair);border-radius:12px;padding:12px;text-align:center;min-width:90px"><div style="font-weight:900;font-size:22px;font-family:Georgia">${f.login}</div><div class="muted small">login</div></div><span>→</span><div style="background:#fff;border:1px solid var(--hair);border-radius:12px;padding:12px;text-align:center;min-width:90px"><div style="font-weight:900;font-size:22px;font-family:Georgia">${f.download}</div><div class="muted small">download</div></div></div><table class="table" style="margin-top:14px"><thead><tr><th>Event</th><th>Count</th></tr></thead><tbody>${Object.entries(f).map(([k,v])=>`<tr><td>${k}</td><td>${v}</td></tr>`).join('')}</tbody></table></div><div class="form-card"><h3>Leads</h3><p class="muted small">${STATE.leads.length} leads</p><table class="table"><thead><tr><th>Name</th><th>Phone</th><th>Class</th><th>District</th></tr></thead><tbody>${STATE.leads.slice(-20).reverse().map(l=>`<tr><td>${esc(l.name||'')}</td><td>${esc(l.phone||'')}</td><td>${esc(l.class||'')}</td><td>${esc(l.district||'')}</td></tr>`).join('')||'<tr><td colspan="4" class="muted small">No leads yet</td></tr>'}</tbody></table></div></div></div>`;
+}
+function router(){
+  const hash=location.hash||'#/';const path=hash.split('?')[0].replace(/^#/,'')||'/';const segs=path.split('/').filter(Boolean);
+  const app=document.getElementById('app');if(!app)return;const mobileNav=document.getElementById('mobile-nav');if(mobileNav)mobileNav.classList.add('hidden');
+  let html='';
+  if(path==='/'||path===''||path==='/home'){html=pageHome();}
+  else if(path==='/papers'){html=pagePapers();}
+  else if(segs.length===1&&/^[6-9]$|^1[0-2]$/.test(segs[0])){html=pageClassHub(segs[0]);}
+  else if(segs.length===2&&/^[6-9]$|^1[0-2]$/.test(segs[0])){html=pageSubjectHub(segs[0],segs[1]);}
+  else if(segs.length===4&&/^[6-9]$|^1[0-2]$/.test(segs[0])){html=pageListing(segs[0],segs[1],segs[2],segs[3]);}
+  else if(segs[0]==='p'&&segs[1]){html=pageDetail(segs[1]);}
+  else if(path==='/account'||path==='/login'){html=pageAccount();}
+  else if(path==='/privacy'){html=pageLegal('privacy');}
+  else if(path==='/terms'){html=pageLegal('terms');}
+  else if(path==='/refund'){html=pageLegal('refund');}
+  else if(path==='/content-policy'){html=pageLegal('content-policy');}
+  else if(path==='/funnel'||segs[0]==='admin'){html=pageFunnel();}
+  else{html=`<div class="page"><div class="form-card"><h2>404</h2><p class="muted">Try <a href="#/papers">Free Papers</a></p><a href="#/" class="btn btn-primary">Home</a></div></div>`;}
+  app.innerHTML=html;window.scrollTo(0,0);attachPageEvents();updateAuthUI();
+}
+function attachPageEvents(){
+  const hs=document.getElementById('hero-search');const hb=document.getElementById('hero-search-btn');
+  if(hs){hs.addEventListener('keydown',e=>{if(e.key==='Enter')doSearch(hs.value);});if(hb)hb.addEventListener('click',()=>doSearch(hs.value));}
+  const prev=document.getElementById('prev-page');const next=document.getElementById('next-page');
+  if(prev){
+    prev.addEventListener('click',()=>navigateReader(-1));if(next)next.addEventListener('click',()=>navigateReader(1));
+    document.getElementById('download-btn')?.addEventListener('click',()=>handleDownload());
+    document.getElementById('login-download-btn')?.addEventListener('click',()=>openAuthModal({type:'download',id:STATE.current?.id}));
+    document.querySelectorAll('.thumb-item').forEach(el=>{el.addEventListener('click',()=>{showReaderPage(Number(el.dataset.page));});});
+    document.getElementById('reader-pages')?.addEventListener('contextmenu',e=>{e.preventDefault();toast('Preview protected');return false;});
+    logEvent('preview_page_n',{resource_id:STATE.current?.id,page:1});
+  }
+  document.querySelectorAll('[data-filter]').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const group=btn.dataset.filter;
+      document.querySelectorAll(`[data-filter="${group}"]`).forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      const exam=document.querySelector('[data-filter="exam"].active')?.dataset.value||'All';
+      const classId=location.hash.split('/')[1];const subject=location.hash.split('/')[2];
+      let list=filterResources({classId,subject,exam});
+      const container=document.getElementById('subject-listing');
+      if(container)container.innerHTML=list.length?list.map(renderCard).join(''):'<div class="form-card" style="grid-column:1/-1">No papers for this filter</div>';
+    });
+  });
+}
+function navigateReader(dir){const total=STATE.current?.pages||1;let next=STATE.previewPage+dir;if(next<1)next=1;if(next>total)next=total;showReaderPage(next);}
+function showReaderPage(n){const total=STATE.current?.pages||1;if(n<1||n>total)return;STATE.previewPage=n;document.querySelectorAll('.page-tile').forEach(el=>{el.style.display=Number(el.dataset.page)===n?'block':'none';});document.querySelectorAll('.thumb-item').forEach(el=>{el.classList.toggle('active',Number(el.dataset.page)===n);});const c=document.getElementById('page-counter');if(c)c.textContent=`${n} / ${total}`;logEvent('preview_page_n',{resource_id:STATE.current?.id,page:n});if(n>2)logEvent('login_wall_hit',{resource_id:STATE.current?.id,page:n});}
+function doSearch(q){if(!q?.trim())return;logEvent('search',{q});const results=filterResources({q});const app=document.getElementById('app');app.innerHTML=`<div class="page"><div class="section-head"><h2>Search: "${esc(q)}" — ${results.length} results</h2><div style="display:flex;gap:8px"><a href="#/papers" class="btn btn-ghost btn-sm">← All Papers</a><a href="#/" class="btn btn-ghost btn-sm">Home</a></div></div><div class="grid grid-4">${results.map(renderCard).join('')||'<div class="form-card" style="grid-column:1/-1">No results — try "10th maths quarterly 2026"</div>'}</div></div>`;document.getElementById('search-suggest')?.classList.add('hidden');}
+function setupGlobalSearch(){
+  const input=document.getElementById('global-search');const suggest=document.getElementById('search-suggest');const btn=document.getElementById('search-btn');if(!input)return;
+  input.addEventListener('input',()=>{
+    const q=input.value.trim();if(q.length<2){suggest.classList.add('hidden');return;}
+    const results=filterResources({q}).slice(0,6);
+    if(!results.length){suggest.classList.add('hidden');return;}
+    suggest.innerHTML=results.map(r=>`<a href="#/p/${r.id}"><img src="${getTileUrl(r.id,1)}" style="width:36px;height:48px;object-fit:cover;border-radius:6px" onerror="this.style.display='none'"><div><div style="font-weight:700;font-size:13px">${esc(r.title_en.slice(0,60))}</div><div class="muted small">${r.class}·${r.subject}·${r.exam_type}</div></div></a>`).join('')+`<a href="#" onclick="event.preventDefault();window._doSearch('${esc(q)}')" style="justify-content:center;font-weight:800;color:var(--primary)">View all ${filterResources({q}).length} results →</a>`;
+    suggest.classList.remove('hidden');
+  });
+  input.addEventListener('keydown',e=>{if(e.key==='Enter'){doSearch(input.value);suggest.classList.add('hidden');}if(e.key==='Escape'){suggest.classList.add('hidden');}});
+  if(btn)btn.addEventListener('click',()=>doSearch(input.value));
+  document.addEventListener('click',e=>{const wrap=document.getElementById('search-wrap');if(wrap&&!wrap.contains(e.target))suggest.classList.add('hidden');});
+}
+window._doSearch=doSearch;
+function handleDownload(){
+  const r=STATE.current;if(!r)return;if(!isLogged()){openAuthModal({type:'download',id:r.id});return;}
+  const pdfBlob=buildWatermarkedPDF(r,{phone:STATE.user.phone,name:STATE.profile?.full_name||''});
+  const url=URL.createObjectURL(pdfBlob);const a=document.createElement('a');a.href=url;a.download=`${r.id}-${STATE.user.phone}.pdf`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
+  const dl={id:'dl_'+Date.now(),user_id:STATE.user.id,resource_id:r.id,watermark_text:`${STATE.user.phone} | ${STATE.profile?.full_name||''}`,signed_url:`./p/${r.id}?token=${btoa(r.id).slice(0,8)}&exp=${Date.now()+15*60*1000}`,expires_at:new Date(Date.now()+15*60*1000).toISOString(),created_at:new Date().toISOString()};
+  STATE.downloads.push(dl);save(LS.downloads,STATE.downloads);logEvent('download',{resource_id:r.id});
+  if(!STATE.profile.tags)STATE.profile.tags=[];[`class-${STATE.profile.class}`,`${r.subject}-interested`].forEach(t=>{if(!STATE.profile.tags.includes(t))STATE.profile.tags.push(t);});
+  STATE.profile.engagement_score=(STATE.profile.engagement_score||0)+1;save(LS.profile,STATE.profile);
+  toast(`Download started`);
+}
+window._openLoginForDownload=(id)=>{openAuthModal({type:'download',id});};
+window._reDownload=(id)=>{const r=getResource(id);if(!r)return;STATE.current=r;handleDownload();};
+function setupAuthModal(){
+  const backdrop=document.getElementById('auth-backdrop');if(backdrop)backdrop.addEventListener('click',closeAuthModal);
+  const closeBtn=document.getElementById('auth-close');if(closeBtn)closeBtn.addEventListener('click',closeAuthModal);
+  const submit=document.getElementById('auth-submit');if(!submit)return;
+  submit.addEventListener('click',()=>{
+    const name=document.getElementById('auth-name').value.trim();
+    const phone=document.getElementById('auth-phone').value.trim();
+    const cls=document.getElementById('auth-class').value;
+    const district=document.getElementById('auth-district').value.trim();
+    const state=document.getElementById('auth-state').value.trim();
+    const consent=document.getElementById('auth-consent').checked;
+    if(!name||!phone||!cls||!district||!state){toast('Name, phone, class, district, state required');return;}
+    if(!/^\d{10}$/.test(phone)){toast('Enter 10-digit phone');return;}
+    if(!consent){toast('Please agree to Terms and Conditions');return;}
+    const user={id:'user_'+phone,phone,created_at:new Date().toISOString()};
+    STATE.user=user;save(LS.user,user);
+    STATE.profile={...(STATE.profile||{}),full_name:name,class:Number(cls),district,state,tags:[`class-${cls}`],engagement_score:1};save(LS.profile,STATE.profile);
+    const consentRec={id:'cons_'+Date.now(),user_id:user.id,purpose:'download',granted:true,created_at:new Date().toISOString()};
+    STATE.consents.push(consentRec);save(LS.consents,STATE.consents);
+    const lead={id:'lead_'+Date.now(),name,phone,class:cls,district,state,created_at:new Date().toISOString()};
+    STATE.leads.push(lead);save(LS.leads,STATE.leads);
+    logEvent('login',{phone});logEvent('lead_submit',{class:cls});
+    closeAuthModal();toast(`Welcome ${name} — download starting...`);
+    const next=STATE._next;if(next?.id){const r=getResource(next.id);if(r){STATE.current=r;setTimeout(handleDownload,300);}}else{router();}
+  });
+}
+window._openLogin=()=>openAuthModal();
+window._logout=()=>{localStorage.removeItem(LS.user);STATE.user=null;toast('Logged out');updateAuthUI();location.hash='#/';};
+window._saveAccount=()=>{
+  const nameEl=document.getElementById('acc-name');const classEl=document.getElementById('acc-class');const distEl=document.getElementById('acc-district');const stateEl=document.getElementById('acc-state');
+  if(!nameEl||!classEl)return;
+  const p={full_name:nameEl.value.trim(),class:Number(classEl.value)||null,district:distEl?.value.trim()||'',state:stateEl?.value.trim()||'',tags:STATE.profile?.tags||[],engagement_score:STATE.profile?.engagement_score||0};
+  STATE.profile={...STATE.profile,...p};save(LS.profile,STATE.profile);toast('Profile saved');
+};
+window._exportData=()=>{
+  const data={user:STATE.user,profile:STATE.profile,consents:STATE.consents,downloads:STATE.downloads,events:STATE.events,leads:STATE.leads};
+  const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`ravi-tuition-data-${STATE.user.phone}.json`;a.click();URL.revokeObjectURL(url);toast('Data exported');
+};
+window._deleteData=()=>{
+  if(!confirm('Delete all your data?'))return;
+  localStorage.clear();STATE.user=null;STATE.profile=null;STATE.downloads=[];STATE.events=[];STATE.leads=[];
+  toast('Data deleted');location.hash='#/';setTimeout(()=>location.reload(),800);
+};
+function setupLang(){
+  const btn=document.getElementById('lang-toggle');if(!btn)return;
+  let lang=localStorage.getItem(LS.lang)||'en';btn.textContent=lang==='ta'?'EN / த':'த / EN';
+  btn.addEventListener('click',()=>{lang=lang==='en'?'ta':'en';localStorage.setItem(LS.lang,lang);btn.textContent=lang==='ta'?'EN / த':'த / EN';document.documentElement.lang=lang;router();toast(lang==='ta'?'தமிழ்':'English');});
+}
+function setupMobile(){
+  const btn=document.getElementById('mobile-menu-btn');const nav=document.getElementById('mobile-nav');if(!btn||!nav)return;
+  btn.addEventListener('click',()=>{
+    nav.classList.toggle('hidden');
+    if(!nav.classList.contains('hidden')){
+      nav.innerHTML=`<a href="#/">Home</a><a href="#/papers" style="background:var(--primary);color:#fff;border-color:var(--primary)">Free Papers — ${STATE.catalogue.length} live</a><a href="#/12">Class 12</a><a href="#/11">Class 11</a><a href="#/10">Class 10</a><a href="#/9">Class 9</a><a href="#/8">Class 8</a><a href="#/7">Class 7</a><a href="#/6">Class 6</a><a href="#/account">Login</a><div class="muted small" style="padding:8px">Ravi's Tuition · ravistuition.in | 86106 53352</div>`;
+    }
+  });
+}
+function setupClassDD(){
+  const dd=document.getElementById('class-dd');if(!dd)return;
+  dd.innerHTML=[12,11,10,9,8,7,6].map(c=>`<a href="#/${c}">Class ${c}</a>`).join('')+`<a href="#/papers" style="grid-column:1/-1;background:var(--primary);color:#fff">Free Papers — All ${STATE.catalogue.length}</a>`;
+}
+function init(){
+  try{
+    ingestCatalogue();
+    setupClassDD();setupGlobalSearch();setupAuthModal();setupLang();setupMobile();updateAuthUI();
+    window.addEventListener('hashchange',router);
+    router();
+    toast(`Ravi's Tuition — ${STATE.catalogue.length} papers • Download after login`);
+  }catch(e){
+    console.error('Init failed',e);
+    const app=document.getElementById('app');
+    if(app) app.innerHTML=`<div class="page"><div class="form-card"><h2>Something went wrong</h2><p class="muted small">${esc(e.message)}</p><pre class="small">${esc(e.stack||'')}</pre><a href="#/" class="btn btn-primary">Reload Home</a></div></div>`;
+  }
+}
+init();
+</script>
+</body>
+</html>
